@@ -1,0 +1,13 @@
+
+.header-section{
+    height: 520px; 
+    background-image: url('../media/pictures/land2-min.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-section {
+      background-image: url('../media/pictures/land-mbl.jpeg');
+    }
+  }
