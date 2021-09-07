@@ -11,6 +11,8 @@
 
     <!-- css style  -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -89,7 +91,7 @@
     <main>
         <!-- Introduction information -->
         <section class="space-y-10 md:pt-24 md:space-y-0 md:mx-32 my-16 grid md:grid-cols-2 grid-cols-1 ">
-            <div class="flex items-center justify-center  md:border-r-2">
+            <div data-aos="fade-right" class="flex items-center justify-center  md:border-r-2">
                 <div id="introduction" class="md:mr-16 p-4">
                     <h1 class="text-3xl mb-8 font-semibold text-gray-600">Kamil Hassan</h1>
                     <p class="tracking-wide text-gray-600">I was born in Bangladesh in 2002. Now I am completing my
@@ -100,7 +102,7 @@
                         explored the world of programming in 2016 with C programming.</p>
                 </div>
             </div>
-            <div id="skills" class="grid grid-cols-3 gap-4 md:gap-8 md:ml-16 p-4 md:p-0">
+            <div data-aos="fade-left" id="skills" class="grid grid-cols-3 gap-4 md:gap-8 md:ml-16 p-4 md:p-0">
                 <div
                     class="w-28 h-28 text-xs bg-gray-600 border-8 border-indigo-500 text-white rounded-full flex justify-center items-center font-light tracking-wide">
                     Team Work
@@ -133,7 +135,7 @@
             <!-- component -->
             <div class="space-y-20  py-20 px-8 md:px-48">
                 <!-- first blog -->
-                <div class="">
+                <div data-aos="zoom-in-up" class="">
                     <div class=" blogs md:grid md:grid-cols-3 shadow-lg hover:shadow-2xl">
                         <div class="">
                             <img src="media/Blogs/7habit.jpeg" class="w-full md:w-96 ">
@@ -153,7 +155,7 @@
                     </div>
                 </div>
                 <!-- 2nd blog -->
-                <div class="">
+                <div data-aos="zoom-in-up" class="">
                     <div class=" blogs md:grid md:grid-cols-3 shadow-lg hover:shadow-2xl">
                         <div class="">
                             <img src="media/Blogs/4aggrement.jpeg" class="w-full md:w-96 ">
@@ -181,7 +183,7 @@
             <!-- component -->
             <div class="space-y-20  py-20 px-8 md:px-48">
                 <!-- first blog -->
-                <div class="">
+                <div data-aos="zoom-in-up" class="">
                     <div class=" blogs md:grid md:grid-cols-3 shadow-lg hover:shadow-2xl">
                         <div class="">
                             <img src="media/Blogs/7habit.jpeg" class="w-full md:w-96 ">
@@ -201,7 +203,7 @@
                     </div>
                 </div>
                 <!-- 2nd blog -->
-                <div class="">
+                <div data-aos="zoom-in-up" class="">
                     <div class=" blogs md:grid md:grid-cols-3 shadow-lg hover:shadow-2xl">
                         <div class="">
                             <img src="media/Blogs/4aggrement.jpeg" class="w-full md:w-96 ">
@@ -252,6 +254,12 @@
     <script src="js/app.js"></script>
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/4b91420911.js" crossorigin="anonymous"></script>
+    <!-- aos js file  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
